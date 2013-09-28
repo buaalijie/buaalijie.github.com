@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "我的自我介绍"
 date:   2013-09-28 10:23:59
-categories: jekyll update
+categories: intro
 ---
 
 
@@ -15,4 +15,5 @@ categories: jekyll update
 * asdjfhhjh
 * sdfjh lkajhjkha f 
 * asdjfh kjh jkhjsfh ajsh jhas dfasd 
-* asdjfh jkh jkh fda  
+* asdjfh jkh jkh fda 
+ 
