@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>心情好不好</title>
+        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -13,24 +13,14 @@
     <body>
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">来看看心情</a></h1>
+            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="/">home</a>
           </div>
           <div> 
               06年毕业，程序员，每天都做与程序相关的事情，偶尔会在这里写下一些心得。
           </div>
           <br>
-          <div id="home">
-  <h1>文章列表</h1>
-  <ul class="posts">
-    
-      <li><span>28 Sep 2013</span> &raquo; <a href="/jekyll/update/2013/09/28/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
-    
-      <li><span>28 Sep 2013</span> &raquo; <a href="/intro/2013/09/28/intro-me.html">我的自我介绍</a></li>
-    
-  </ul>
-</div>
-
+          {{ content }}
           <div class="footer">
             <div class="contact">
               <p>
