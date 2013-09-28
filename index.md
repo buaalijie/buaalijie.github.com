@@ -8,11 +8,11 @@ tagline: 每天的心情要好
 时不时在这里抒发一下自己的感情，记录一点心得。
 
 
-```
-public static void main(String[] args){
-	System.out.println("hello world!");
-}
-```
+
+	public static void main(String[] args){
+		System.out.println("hello world!");
+	}
+
 
 
 ### 文章列表
